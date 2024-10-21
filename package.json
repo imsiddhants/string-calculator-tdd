@@ -1,0 +1,14 @@
+{
+  "name": "string-calculator-tdd",
+  "version": "1.0.0",
+  "description": "String calculator tdd",
+  "main": "stringCalculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Siddhant Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
