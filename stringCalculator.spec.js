@@ -14,3 +14,8 @@ test('should return sum of two numbers', () => {
     const calculator = new StringCalculator();
     expect(calculator.add("1,2")).toBe(3);
 });
+
+test('should return sum of multiple numbers', () => {
+    const calculator = new StringCalculator();
+    expect(calculator.add("1,2,3,4")).toBe(10);
+});
